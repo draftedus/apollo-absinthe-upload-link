@@ -1,6 +1,6 @@
 import { createUploadMiddleware } from '../index'
 import fetchMock from 'fetch-mock'
-import { execute } from 'apollo-link'
+import { execute } from '@apollo/client'
 import gql from 'graphql-tag'
 
 jest.mock('../request')
